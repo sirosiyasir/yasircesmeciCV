@@ -6,14 +6,36 @@
   text-shadow: 0 0 12px #6aa9e4bf;
 }
 
+.info {
+  text-shadow: 0 0 12px #6aa9e4bf;
+}
+
 .info-header {
   -webkit-transition: all 1.3s ease-in-out;
   -moz-transition: all 1.3s ease-in-out;
   -o-transition: all 1.3s ease-in-out;
   -ms-transition: all 1.3s ease-in-out;
   transition: all 1.3s ease-in-out;
+  font-size: 5rem;
 }
 
 .text-animation {
-  color: rgb(218, 199, 199);
+  color: #020202bf;
+  text-shadow: 0 0 12px #fff;
+}
+
+.text-animation-second {
+  color: #fff;
+  text-shadow: 0 0 12px #6aa9e4bf;
+}
+
+@media screen and (max-width: 1350px) {
+  .myAccounts {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  .info-header {
+    font-size: 3rem;
+  }
 }
