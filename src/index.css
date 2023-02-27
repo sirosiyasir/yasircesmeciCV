@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+.kodlar-image:hover {
+  background-image: url(../public/images/notlar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.funny-cards-image:hover {
+  background-image: url(../public/images/funnycard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.apple-image:hover {
+  background-image: url(../public/images/appleweb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.twitter-image:hover {
+  background-image: url(../public/images/twitter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.movie-image:hover {
+  background-image: url(../public/images/movie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-image:hover {
+  background-image: url(../public/images/weather.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .icons:hover {
   text-shadow: 0 0 12px #6aa9e4bf;
 }
@@ -37,5 +69,18 @@
 @media screen and (max-width: 540px) {
   .info-header {
     font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .my-box-padding {
+    padding: 60px 80px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 878px) {
+  .my-text-size {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
   }
 }
