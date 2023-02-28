@@ -42,7 +42,7 @@ function Projelerim() {
       <Proje
         title={"Kodlar"}
         firstFramework={".txt"}
-        secondFramework={"Kod Notlarım"}
+        secondFramework={"Notlarım"}
         target={"https://github.com/sirosiyasir/kodlar_html_css_js"}
         img={"kodlar-image"}
       />

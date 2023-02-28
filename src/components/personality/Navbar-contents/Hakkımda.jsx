@@ -1,24 +1,24 @@
-import { useEffect, useState } from "react"
+//npm packet
+import Typewriter from "typewriter-effect"
 
 function Hakkımda() {
-  const [animationClass, setAnimationClass] = useState(
-    "text-white p-6 info-header"
-  )
-
-  useEffect(() => {
-    setTimeout(() => {
-      setAnimationClass("text-white p-6 info-header text-animation")
-    }, 1000)
-    setTimeout(() => {
-      setAnimationClass("text-white p-6 info-header text-animation-second")
-    }, 1800)
-  }, [])
-
   return (
-    <div>
-      <h1 className={animationClass}>
-        Merhaba, ben Yasir. Front-end geliştiricisiyim.
-      </h1>
+    <div className="hakkımda-text p-6">
+      <Typewriter
+        options={{
+          delay: 50,
+        }}
+        onInit={(typewriter) => {
+          typewriter
+            .typeString("Merhaba, ben Yasir. Front-end geliştiricisiyim.")
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString(
+              "Hakkımda daha fazla bilgi edinmek isterseniz projelerime göz atabilirsiniz."
+            )
+            .start()
+        }}
+      />
     </div>
   )
 }

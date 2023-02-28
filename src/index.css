@@ -4,32 +4,30 @@
 
 .kodlar-image:hover {
   background-image: url(../public/images/notlar.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .funny-cards-image:hover {
   background-image: url(../public/images/funnycard.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .apple-image:hover {
   background-image: url(../public/images/appleweb.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .twitter-image:hover {
   background-image: url(../public/images/twitter.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .movie-image:hover {
   background-image: url(../public/images/movie.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .weather-image:hover {
   background-image: url(../public/images/weather.png);
+}
+
+.weather-image:hover,
+.movie-image:hover,
+.twitter-image:hover,
+.funny-cards-image:hover,
+.apple-image:hover,
+.kodlar-image:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -42,45 +40,38 @@
   text-shadow: 0 0 12px #6aa9e4bf;
 }
 
-.info-header {
-  -webkit-transition: all 1.3s ease-in-out;
-  -moz-transition: all 1.3s ease-in-out;
-  -o-transition: all 1.3s ease-in-out;
-  -ms-transition: all 1.3s ease-in-out;
-  transition: all 1.3s ease-in-out;
-  font-size: 5rem;
-}
-
-.text-animation {
-  color: #020202bf;
-  text-shadow: 0 0 12px #fff;
-}
-
-.text-animation-second {
+.hakkımda-text {
   color: #fff;
   text-shadow: 0 0 12px #6aa9e4bf;
+  font-size: 5rem;
+  line-height: 6rem;
 }
 
 @media screen and (max-width: 1350px) {
   .myAccounts {
     display: none;
   }
+  .hakkımda-text {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
 }
+@media (min-width: 767px) and (max-width: 878px) {
+  .my-text-size {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 540px) {
-  .info-header {
-    font-size: 3rem;
+  .hakkımda-text {
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 
 @media screen and (max-width: 452px) {
   .my-box-padding {
     padding: 60px 80px;
-  }
-}
-
-@media (min-width: 767px) and (max-width: 878px) {
-  .my-text-size {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
   }
 }
