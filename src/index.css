@@ -57,7 +57,7 @@
   }
 }
 @media (min-width: 767px) and (max-width: 878px) {
-  .my-text-size {
+  .proje-title-text-size {
     font-size: 1.25rem;
     line-height: 1.5rem;
   }
@@ -73,5 +73,21 @@
 @media screen and (max-width: 452px) {
   .my-box-padding {
     padding: 60px 80px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .yetenek-text-size {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .proje-title-text-size {
+    font-size: 1.25rem;
+  }
+  .proje-framework-text {
+    display: none;
+  }
+  .my-box-padding {
+    padding: 60px 40px;
   }
 }

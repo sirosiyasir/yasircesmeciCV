@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Hakkımda from "../personality/Navbar-contents/Hakkımda"
 import Projelerim from "../personality/Navbar-contents/Projelerim"
+import Yeteneklerim from "../personality/Navbar-contents/Yeteneklerim"
 
 function Navbar() {
   const [info, setInfo] = useState({
@@ -44,7 +45,7 @@ function Navbar() {
       <div className="w-screen h-[2px] bg-gray-400"></div>
       {info.hakkımda && <Hakkımda />}
       {info.projelerim && <Projelerim />}
-      {info.yetenekler && <h1 className="text-2xl text-white">Yetenekler</h1>}
+      {info.yetenekler && <Yeteneklerim />}
     </div>
   )
 }
