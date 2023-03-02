@@ -46,6 +46,10 @@ function Projelerim() {
         target={"https://github.com/sirosiyasir/kodlar_html_css_js"}
         img={"kodlar-image"}
       />
+      <Proje
+        title={"Daha fazlası.."}
+        target={"https://github.com/sirosiyasir?tab=repositories"}
+      />
     </div>
   )
 }
